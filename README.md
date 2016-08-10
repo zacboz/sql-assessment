@@ -45,7 +45,7 @@ Mini Coup 2013 - Jane Janis
 * Create an endpoint at `POST '/api/users'` that will take a user from the body and add them to the database
 * Create an endpoint at `POST '/api/vehicles'` that will take a vehicle from the body and add it to the database
 * Create an endpoint at `GET '/api/user/:userId/vehiclecount'` that will return a count of how many vehicles belong to the given user  
-  Response should be an object with a count property ie: {count:1}
+  Response should be an object with a count property ie: `{count:1}`
 * Create an endpoint at `GET '/api/user/:userId/vehicle'` that will find all vehicles that belong to the user with the provided users id
 * Create an endpoint at `GET '/api/vehicle/?email=UserEmail'` that will find all vehicles that belong to the user with the provided users Email
 * Use the above endpoint to also handle `GET '/api/vehicle/?userFirstStart=letters'` to get all vehicles for any user whose first name starts with the provided letters
