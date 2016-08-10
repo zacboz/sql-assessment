@@ -1,6 +1,6 @@
 import test from 'ava'
 import request from 'supertest-as-promised'
-import app from './server'
+import app from './index'
 // import Faker from 'faker'
 
 function sleep (time) {

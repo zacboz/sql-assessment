@@ -12,7 +12,6 @@ You have a starting node server.
 Using the `user_create_seed.sql`
 
 Create a table called Users that has an id, firstname, lastname, and an email
-
 * Insert 3 records into Users:
 
 ```
@@ -28,7 +27,6 @@ Using the `vehicle_create_seed.sql`
 Create a table called Vehicles that has an id, make, model, year, and ownerId (a foreign key to users)
 
 * Insert 6 records into Vehicles.  Below you find the make, model, year, and ownerId (for the foreign key)
-
 ```
 Toyota Camry 1991 - John Smith
 Honda Civic 1995 - John Smith
