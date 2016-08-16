@@ -78,7 +78,6 @@ test('Post Vehicle works', async t=>{
   let foundUser = vehicleCheckData.body.reduce((prev, cur) => {
     return prev || cur.year == newUser.year;
   }, false)
-
   t.truthy(foundUser, "New vehicle was not found in the database");
 })
 
@@ -181,7 +180,7 @@ test('Update Vehicle to new Owner', async t =>{
       return prev || (cur.id==car.id?cur.ownerid:0);
     }, 0);
 
-    t.is(match, 3, "Car should be updated to owverId of 3");
+    t.is(match, 3, "Car should be updated to ownerId of 3");
 });
 
 test('Remove Vehicles Owner', async t =>{
