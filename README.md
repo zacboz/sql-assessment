@@ -45,8 +45,8 @@ GOTCHA: It's important to know that express converts values passed into and acce
 * Create an endpoint at `GET '/api/user/:userId/vehiclecount'` that will return a count of how many vehicles belong to the given user  
   Response should be an object with a count property ie: `{count:1}`
 * Create an endpoint at `GET '/api/user/:userId/vehicle'` that will find all vehicles that belong to the user with the provided users id
-* Create an endpoint at `GET '/api/vehicle/?email=UserEmail'` that will find all vehicles that belong to the user with the provided users Email
-* Use the above endpoint to also handle `GET '/api/vehicle/?userFirstStart=letters'` to get all vehicles for any user whose first name starts with the provided letters
+* Create an endpoint at `GET '/api/vehicle?email=UsersEmail'` that will find all vehicles that belong to the user with the provided users Email
+* Use the above endpoint to also handle `GET '/api/vehicle?userFirstStart=letters'` to get all vehicles for any user whose first name starts with the provided letters
 * Create an endpoint at `GET '/api/newervehiclesbyyear'` that gets all vehicles newer than 2000 and sorted by year with the newest car first with the owner first and last name
 * Create an endpoint at `PUT '/api/vehicle/:vehicleId/user/:userId'` that changes the ownership of the provided vehicle to be the new user.
 * Create an endpoint at `DELETE '/api/user/:userId/vehicle/:vehicleId'` that removes ownership of that vehicle from the provided user, but does not delete the vehicle
